@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    margin: 0px;
+}
+header .inicio{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(53, 51, 51, 0.5);
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: rgb(248, 239, 239);
+    padding: 20px 10px;
+    font-weight: bold;
+}
+header a:hover{
+    color: rgb(3, 3, 3);
+}
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 75vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(36, 31, 31, 0.5),
+        rgba(181, 171, 171, 0.5)
+    ) 
+    ,url(imagenes/ba.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hero h2{
+    color: rgb(50, 47, 47);
+    font-size: 30px;
+}
+#hero div{
+    height: 100px;
+    width: 600px;
+}
+#hero div p{
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+}
+#hero button{
+    margin-top: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    font-family: cursive;
+    border-radius: 25px;
+    box-shadow: 0px 1px 10px black;
+}
+#hero button a{
+    text-decoration: none;
+    color: white;
+}
+#hero15{
+    height: 45vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+.hero2{
+    display: flex;
+    text-align: center;
+    height: auto;
+    margin-top: 0vh;
+    background-color: rgb(40, 40, 40);
+}
+.hero2 div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hero2 img{
+    margin-top: 5vh;
+}
+.hero2 div h2{
+    margin-top: 40px;
+    color: rgb(197, 197, 197);
+}
+.hero2 div p{
+    margin-top: 20px;
+    display: flex;
+    text-align: justify;
+    color: rgb(197, 197, 197);
+}
+.hero2 p:hover{
+    color: white;
+}
+.hero2 h2:hover{
+    color: white;
+}
+
+.container{
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: center;
+}
+.carta{
+    background-color: white;
+    text-align: center;
+    flex-direction: column;  
+    justify-content: center;
+    display: flex;
+    padding: 1px 1px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: default;
+    align-items: center;
+    box-shadow: 0px 1px 10px black;
+    transition: all 400ms ease;
+    margin: 20px 5px;
+}
+.carta img{
+    width: auto;
+    height: 100px;
+}
+.carta:hover{
+    box-shadow: 5px 2px 20px(0,0,0,0.5);
+    transform: translate(1%);
+}
+.container figure img{
+    width: auto;
+    height: 200px;
+}
+
+.container div p{
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+.container div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: palevioletred;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 19px;
+}
+.container div a:hover{
+    font-size: 20px;
+    color: red;
+    box-shadow: 5px 2px 20px(0,0,0,0.5);
+    transform: translate(1%);
+}
+.container div h6{
+    display: flex;
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 19px;
+}
+.container div h6:hover{
+    font-size: 20px;
+    color: red;
+    box-shadow: 5px 2px 20px(0,0,0,0.5);
+    transform: translate(1%);
+}
+#hero3{
+    height: 20vh;
+    background-image: url(imagenes/fondo.jpgs);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+#hero4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 15vh;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(40, 40, 40));
+}
+#hero4 h2{
+    font-size: 40px;
+    color: white;
+}
+#hero4 h2:hover{
+    color: rgb(0, 255, 149);
+}
+#hero5{
+    height: 20vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+#hero6{
+    height: 20vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+#hero7{
+    height: 20vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+#hero8{
+     height: 70vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+#piepagina{
+    display: flex;
+    justify-items: center;
+    height: auto;
+    margin-top: 0vh;
+    background-color: rgb(0, 0, 0);
+}
+#piepagina div{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#piepagina img{
+    margin-top: 5vh;
+}
+#piepagina div h3{
+    margin-top: 40px;
+    color: rgb(197, 197, 197);
+}
+#piepagina div p{
+    margin-top: 20px;
+    display: flex;
+    text-align: left;
+    color: rgb(197, 197, 197);
+}
+#piepagina p:hover{
+    color: white;
+}
+#piepagina h3:hover{
+    color: white;
+}
+#piepagina a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+#piepagina a:hover{
+    color: white;
+}
+@media(max-width:720px){
+    header .inicio{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+    }  
+    #hero{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+     }
+    .hero2{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    #PRO{
+        display: none;
+    }
+    .carta{
+        flex-direction: row;
+        align-items: center;
+        justify-self: center;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container div p{
+        padding: auto 20px;
+    }
+    #hero8{
+        width: 520px;
+        height: 150px;
+    }
+    #piepagina{
+        flex-direction: column;
+    }
+}
